@@ -2,7 +2,7 @@
 
 A desktop app that lets a local language model (Qwen3, run with Ollama) drive a Dobot Magician robot arm from a depth
 camera (Orbbec Gemini 335): you type an instruction such as "Swap the red and blue cubes, then turn the blue cube 30
-degrees anticlockwise", and the app looks at the table, plans the picks and places, and checks the result. A digital
+degrees anticlockwise", and the app looks at the table, plans the picks and places, build colored combination tower etc, and checks the result. A digital
 twin (PyBullet) runs the same tasks in simulation. A separate watcher program scores every run with its own camera.
 
 This is version **4.6** (git tag `v4.6`, 2026-10-29).
