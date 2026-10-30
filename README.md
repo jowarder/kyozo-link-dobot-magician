@@ -1,6 +1,6 @@
 # Kyozo Link
 
-AI-written text-to-robot control software for a Dobot Magician cell with an Orbbec Gemini 335 RGB-D depth camera mounted eye-to-hand. Qwen3-4B plans each request at run time over 25 safety-checked tools, while Claude Opus 5.5 writes and revises the application code offline from an independent watcher’s run records. About 66,000 Python lines total, including the watcher, a PyBullet digital twin, and 880 tests. Four pre-registered studies on real hardware.
+Text-to-robot control software for a Dobot Magician cell with an Orbbec Gemini 335 RGB-D depth camera mounted eye-to-hand. Qwen3-4B plans each request at run time over 25 safety-checked tools; Claude Opus 5.5 wrote all ~66,000 Python lines offline and revises the code from an independent watcher’s run records. Includes the watcher, a PyBullet digital twin, and 880 tests. Four pre-registered studies on real hardware, with AI-driven updates.
 
 
 
