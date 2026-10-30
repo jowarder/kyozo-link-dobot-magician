@@ -1,9 +1,8 @@
 # Kyozo Link
 
-A desktop app that lets a local language model (Qwen3, run with Ollama) drive a Dobot Magician robot arm from a depth
-camera (Orbbec Gemini 335): you type an instruction such as "Swap the red and blue cubes, then turn the blue cube 30
-degrees anticlockwise", and the app looks at the table, plans the picks and places, build colored combination tower etc, and checks the result. A digital
-twin (PyBullet) runs the same tasks in simulation. A separate watcher program scores every run with its own camera.
+AI-written text-to-robot control software for a Dobot Magician cell with an Orbbec Gemini 335 RGB-D depth camera mounted eye-to-hand. Qwen3-4B plans each request at run time over 25 safety-checked tools, while Claude Opus 5.5 writes and revises the application code offline from an independent watcher’s run records. About 66,000 Python lines total, including the watcher, a PyBullet digital twin, and 880 tests. Four pre-registered studies on real hardware.
+
+
 
 This is version **4.6** (git tag `v4.6`, 2026-10-29).
 
